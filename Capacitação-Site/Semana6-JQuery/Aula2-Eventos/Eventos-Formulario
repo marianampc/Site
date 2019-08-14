@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+	<meta charset="utf-8">
+	<!-- bootstrap - link cdn -->
+		<link rel="id=campo" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- jquery -->
+		<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<script type="text/javascript">
+			//incluir a codificação javascript aqui
+			$(document).ready( function(){
+
+				//Funções que funcionam pelo formulario, as mesmas funcionam por classe
+				/*
+				EX:
+				$('.campo1').focus( function(){
+					alert('Elemento foi focado');
+				});
+				*/
+				$('#campo1').focus( function(){
+					alert('Elemento foi focado');
+				});
+				$('#campo2').blur( function(){
+					alert('Elemento foi focado');
+				});
+				$('#campo3').change( function(){
+					alert('Elemento foi focado');
+				});
+			});
+			
+		</script>
+</head>
+<body>
+	<!--Evento com o Teclado-->
+	<select id="campo1" type="text">
+		<option value="1">Primeira Opção</option>
+		<option value="2">Segunda Opção</option>
+	</select>
+	<input id="campo2" type="text">
+	<input id="campo3" type="text">
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+	<!-- bootstrap - link cdn -->
+		<link rel="id="div" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- jquery -->
+		<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<script type="text/javascript">
+			//incluir a codificação javascript aqui
+			$(document).ready( function(){
+
+				//Funções que funcionam pelo mouse: click,dblclick,mousedown,mouseover,mouseout
+				$('#div1').click( function(){
+					alert('Elemento Clicado');
+				});
+				$('#div2').dblclick( function(){
+					alert('Elemento Clicado');
+				});
+				$('#div3').mousedown( function(){
+					alert('Elemento Clicado');
+				});
+				$('#div4').click( function(){
+					alert('Elemento Clicado');
+				});
+				$('#div5').mouseover( function(){
+					alert('Elemento Clicado');
+				});
+			});
+			
+		</script>
+</head>
+<body>
+	<!--Evento com o mouse-->
+	<div id="div1" style="height: 150px; width: 150px; background: #CCC; margin: 5px;"></div>
+	<!---->
+	<div id="div2" style="height: 150px; width: 150px; background: #CCC; margin: 5px;"></div>
+	<!---->
+	<div id="div3" style="height: 150px; width: 150px; background: #CCC; margin: 5px;"></div>
+	<!---->
+	<div id="div4" style="height: 150px; width: 150px; background: #CCC; margin: 5px;"></div>
+	<!---->
+	<div id="div5" style="height: 150px; width: 150px; background: #CCC; margin: 5px;"></div>
+</body>
+</html>

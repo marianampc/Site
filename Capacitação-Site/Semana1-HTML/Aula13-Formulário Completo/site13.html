@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="utf-8" content="">
+	<title>Site 13 - Formulário Completo</title>
+</head>
+<body>
+	<h1>Meu Formulário</h1>
+	<p>Este é um formulário de exemplo</p>
+
+	<form action="" enctype="multipart/form-data">
+		
+		<div>
+			<label for="">Nome</label>
+			<input type="text" name="nome" placeholder="Digite seu nome" required="required">
+		</div>
+
+		<div>
+			<label for="">Email</label>
+			<input type="text" name="e-mail" placeholder="Digite seu seu e-mail" required="required">
+		</div>
+
+		<div>
+			<label for="">Selecione sua cidade</label>
+			<select required="required" name="cidade">
+				<option selected="selected" value="Selecione">Selecione</option>
+				<option value="1">São Paulo</option>
+				<option value="2">Belo Horizonte</option>
+				<option value="3">Brasília</option>
+				<option value="4">Rio de Janeiro</option>
+			</select>
+		</div>
+
+		<div>
+			<label for="">Sua foto</label>
+			<input type="file" name="foto" required="required">
+		</div>
+
+		<div>
+			<p>Selecione seu sexo:</p>
+
+			
+			<label for="sexo1"><input checked="" name="sexo" type="Radio" value="m" id="sexo1"> Masculino</label>
+			<label for="sexo2"><input checked="checked" name="sexo" type="Radio" value="f" id="sexo2"> Feminino</label>
+		</div>
+
+		<div>
+			<label for="">Biografia</label><br>
+			<textarea name="Biografia" required="required" cols="30" rows="5" placeholder="Digite sua Biografia"></textarea>
+		</div>
+
+		<div>
+			<label for="">Senha</label><br>
+			<input type="password" required="required" placeholder="Digite sua Senha">
+		</div>
+
+		<div>
+			<label for="noticias">
+				<input name="news" type="checkbox" id="noticias">
+				Deseja receber e-mails promocionais e noticias?
+			</label>
+
+		</div>
+
+		<div >
+			<button type="submit" name="Enviar" value="1">Enviar</button>
+		</div>>
+
+	</form>
+
+</body>
+</html>

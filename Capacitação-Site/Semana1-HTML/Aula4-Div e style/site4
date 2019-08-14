@@ -1,0 +1,33 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>Site 4-Div</title>
+
+	<style>
+		.div-texto{
+			background-color: black;
+			border-radius: 20%;
+			width: 100px;
+			height: 100px;
+			padding: 20px;
+			color: #fff;
+			font-family: Arial;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<div>  <!--A tag div serve como um separador de sessoões para o site. Além de ajudar na organização, o mesmo pode dividir o local que a linguagem css é usada(podendo estilizar cada parte separadamente)-->
+	<h1>Título</h1>
+	</div>
+
+	<div class="div-texto">
+		Um texto dentro da tag div
+	</div>
+
+</body>
+</html>

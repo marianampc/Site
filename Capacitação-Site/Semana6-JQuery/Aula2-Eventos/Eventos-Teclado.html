@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+	<meta charset="utf-8">
+	<!-- bootstrap - link cdn -->
+		<link rel="id=campo" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- jquery -->
+		<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<script type="text/javascript">
+			//incluir a codificação javascript aqui
+			$(document).ready( function(){
+
+				//Funções que funcionam pelo teclado:keydown, keypress,keyup
+				$('#campo1').keydown( function(){
+					alert('Botão foi precionado');
+				});
+				$('#campo2').keypress( function(){
+					alert('Botão foi precionado');
+				});
+				$('#campo3').keyup( function(){
+					alert('Botão foi precionado');
+				});
+			});
+			
+		</script>
+</head>
+<body>
+	<!--Evento com o Teclado-->
+	<input id="campo1" type="text">
+	<input id="campo2" type="text">
+	<input id="campo3" type="text">
+</body>
+</html>

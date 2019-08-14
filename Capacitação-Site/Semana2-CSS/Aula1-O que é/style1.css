@@ -1,0 +1,16 @@
+/*Arquivo externo de css- deixa o plano de fundo azul*/
+
+body {
+		background-color: #00BFFF;
+	}
+/*Com css podemos estilizar todos os paragrafos ou só alguns em especial. Hoje será para todos os parágrafos.*/
+#primeira { /*Estamos especificando que a id=primeira terá esse style; Caso fosse uma classe usariamos .primeira*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;/*Se a fonte é palavras compostas à colocamos entre parenteses. Sendo à parte final em azul à família dos três estilos*/
+	color: #FFFFFF;/*A cor da fonte é branca para esse código decimal*/
+	font-size: 25;/*Estabelecemos seu tamanho em px(pixel), tb pode ser em pt(pontos) ou só colocando o número*/
+	font-weight: bold;/*Deixar em negrito*/
+}
+
+h1{/*Podemos especificar todos os h1, hn*/
+
+}

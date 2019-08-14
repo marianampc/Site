@@ -1,0 +1,11 @@
+/*Várias páginas html podem utilizar esta página*/
+body{
+	background-color: black;
+}
+h1{
+	color: orange;
+}
+
+p{
+	color: gray;
+}

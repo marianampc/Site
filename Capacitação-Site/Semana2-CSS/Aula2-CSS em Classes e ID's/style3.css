@@ -1,0 +1,39 @@
+/*Documeto CSS - Aula 3 e 4*/
+body {
+	background-image:url("img/imagem1.jpg") 
+}
+
+p{
+	/*text-align: center;/*Afirmamos, aonde queremos que o prágrafo se encontre*/
+	/*text-decoration: underline; /*Deixamos o texto sublinhado, existe vários tipos*/
+	text-indent: 50px;/*Quando queremos especificar ainda mais detalhado à distância do texto à lateral*/
+
+	font-size: 50;
+	font-weight: bold;
+}
+
+.primeiro {
+	position: relative; /*Definimos seu possicionamento. Sendo relativo ou absoluto*/
+	width: 100%;
+	height: 80px;
+	background-color:#FF0000;
+	border-bottom: 1px solid #000000;
+}
+
+*{/*Serve para toda a página*/
+	/*As margens não existam*/
+	margin: 0; 
+	padding: 0;
+}
+
+a { /*Serve para todas as ancoras, ou seja todos os links, podemos personalizar com uma #id*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {/*Estilizando quando o mause está ensima do link*/
+	font-size: 60px;
+	color: #00FF00;
+}

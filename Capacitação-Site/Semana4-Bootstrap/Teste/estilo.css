@@ -1,0 +1,62 @@
+.fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+ .canto{
+	color: white;
+	font-family: fantasy;
+	font-style:"Arnoldboecklin","Oldtown","Blippo";
+	font-size: 25px;
+	padding-top: 2px;
+	padding-right: 0;
+	
+}
+#ent{
+	background-image: url("img/Entrada.jpg");
+  	background-position: center center;	
+ 	 background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	
+}
+.canto:hover{
+	color: purple;
+}
+
+#grif{
+	background-image: url("img/Grif.png");
+  	background-position: center center;
+ 	 background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+#rav{
+	background-image: url("img/Raven.jpg");
+  	background-position: center center;
+ 	 background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#lufa{
+	background-image: url("img/lufa.jpg");
+  	background-position: center center;
+ 	 background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+#sly{
+	background-image: url("img/Sly.jpg");
+  	background-position: center center;
+ 	 background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+
+}
+
+#tabelagr{
+	background-color: #e89e9b; 
+	float: left;
+}
+
+

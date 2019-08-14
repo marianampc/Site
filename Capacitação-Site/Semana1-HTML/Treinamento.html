@@ -1,0 +1,148 @@
+!DOCTYPE html> <!-- Define a versão 5(atual) do HTML -->
+<html lang="pt-br"> <!-- Abertura de todo o documento HTML -->
+
+<head> <!-- Informações sobre a página -->
+  <title>EngNet é TOP!</title>
+  <!-- Tags meta em ação-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+  <meta name="description" content="Treinamento em desenvolvimento">
+  <meta name="author" content="EngNet Consultoria">
+
+  <!-- Incluindo o CSS intenamente e externamente -->
+  <!-- Internamente -->
+  <style>
+    .css{
+      color: blue;
+      border: solid red 2px;
+    }
+    .div{
+      border: solid red 2px;
+    }
+  </style>
+  <!-- Externamente -->
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  <!-- Incluindo scripts em Javascript -->
+  <script>
+    alert("Este é um comando javascript, mas ainda não cheganos lá!");
+  </script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body><!-- Corpo da página, onde fica tudo que será exibido -->
+
+  <!-- Cabeçalhos -->
+  <div class="div">
+  <h1>Cabeçalho 1</h1>
+  <h2>Cabeçalho 2</h2>
+  <h3>Cabeçalho 3</h3>
+  <h4>Cabeçalho 4</h4>
+  <h5>Cabeçalho 5</h5>
+  <h6>Cabeçalho 6</h6>
+  </div>
+
+  <!-- Formatação de textos -->
+  <p>Isto é um parágrafo.</p>
+  <p><b>Isto é um parágrafo em negrito.</b></p>
+  <p><b><i>Isto é um parágrafo em negrito e itálico.</i></b></p>
+  <br>
+  <p>Isto é um parágrafo após uma quebra de linha</p>
+  <p class="css">Isto é um parágrafo com estilo CSS</p>
+  <br>
+
+  <!-- Listas -->
+  <p><b>Isto é uma lista</b></p>
+  <ul>
+    <li>Item 1 da lista</li>
+    <li>Item 2 da lista</li>
+    <li>Item 3 da lista</li>
+    <li>Item 4 da lista</li>
+  </ul>
+  <br>
+
+  <p><b>Isto é uma lista ordenada por numeros romanos</b></p>
+  <ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <br>
+
+  <!-- Imagens -->
+  <p><b> Isto é uma imagem(ou deveria ser)</b></p>
+  <img src="http://geradormemes.com/media/created/swvpnq.jpg" alt="haha">
+  <br>
+
+  <!-- Links -->
+  <a href="https://www.engnetconsultoria.com.br">
+  <p>Link para o site da EngNet</p>
+  </a>
+  <br>
+
+  <!-- Tabelas -->
+  <p><b> Isto é uma tabela</b></p>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Thomas</td>
+      <td>A.Anderson</td> 
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Agent</td> 
+      <td>8</td>
+    </tr>
+  </table>
+  <br>
+
+
+  <!-- Formulários -->
+  <b>Isto é um formulário</b>
+  <form>
+    <!-- Inputs e seus tipos -->
+    Nome:<br>
+    <input type="text" name="nome"><br>
+    Sobrenome:<br>
+    <input type="text" name="sobrenome"><br>
+    Usuário:<br>
+    <input type="text" name="username"><br>
+    Senha:<br>
+    <input type="password" name="psw"><br>
+    <input type="radio" name="genero" value="male" checked> Masculino<br>
+    <input type="radio" name="genero" value="female"> Femenino<br>
+    <input type="radio" name="genero" value="other"> Outro <br>
+    <input type="checkbox" name="fome" value="pastel"> Eu tenho pastel<br>
+    <input type="checkbox" name="fome" value="coxinha"> Eu tenho coxinha <br>
+
+    <!-- Select -->
+    <b>Isto é um select</b>
+    <select name="faculdade">
+      <option value="xerox">Xerox</option>
+      <option value="coxinha">Coxinha</option>
+      <option value="dormir">Dormir</option>
+      <option value="agua">Hidratar</option>
+    </select>
+    <br>
+
+    <!-- Text Area -->
+    <textarea name="messagem" rows="10" cols="30">
+      Açai é bom mas prefiro terra
+    </textarea>
+    <br>
+
+    <!-- Um botão e input -->
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html> <!-- Fecha o documento -->

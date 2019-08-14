@@ -1,0 +1,17 @@
+/*Documento CSS da Aula 5*/
+#frutas {
+	font-family: Arial, sans-serif;
+	font-size: 15;
+	color: #FF0000;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.legumes{
+	color: #000FF0;
+	font-family: Arial, sans-serif;
+	font-size: 15;
+	font-weight: bold;
+	text-decoration: none;
+}
